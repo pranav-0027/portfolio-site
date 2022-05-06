@@ -11,6 +11,12 @@
     vertical-align: middle;
     display: table-cell;
     max-height: 90%;
+
+    @media screen and (max-width: 800px) {
+      width: 70%;
+      left: 20%;
+    }
+
   }
   h1 {
     font-size: 53px;
@@ -87,6 +93,10 @@
         display: none;
     }
 }
+
+@media screen and (max-width: 800px) {
+  display: none;
+}  
   .site-card {
     display: flex;
     flex-direction: column;

@@ -25,20 +25,16 @@ const About = () => {
           />
         </h1>
         <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book.
+         My name is Pranav Mitra, I'm a Front End Engineer based in Delhi, India.
+          Currently pursuing my B.Ttech. degree majoring in Electronics. I wish to further my career as a web developer 
+          building beautiful and intuitive websites. 
         </p>
         <p>
-          It has survived not only five centuries, but also the leap into
-          electronic typesetting, remaining essentially unchanged. It was
-          popularised in the 1960s with the release of Letraset sheets
-          containing Lorem Ipsum passages
+          I have experience with React and Context API as well as proficiency in Javascript, HTML and CSS which I have used to build an array of websites. 
+          I have strong problem solving skills with knowledge of C++ that helps me make use of various data structues and algorithms to solve real life based problems.
         </p>
         <p>
-          and more recently with desktop publishing software like Aldus
-          PageMaker including versions of Lorem Ipsum.
+          In my free time you would find me in front of a chess board or a ping pong table.
         </p>
       </div>
       <div className='sites'>
