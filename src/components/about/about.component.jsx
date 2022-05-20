@@ -6,6 +6,7 @@ import img1 from '../../assets/site_photos/Ecommerce_pic.png';
 import img2 from '../../assets/site_photos/Merkury_pic.png';
 import img3 from '../../assets/site_photos/Loruki_pic.png';
 import img4 from '../../assets/site_photos/parralax_pic.png';
+import img5 from '../../assets/site_photos/Crypto_pic.png';
 
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate');
@@ -25,16 +26,21 @@ const About = () => {
           />
         </h1>
         <p>
-         My name is Pranav Mitra, I'm a Front End Engineer based in Delhi, India.
-          Currently pursuing my B.Ttech. degree majoring in Electronics. I wish to further my career as a web developer 
-          building beautiful and intuitive websites. 
+          My name is Pranav Mitra, I'm a Front End Engineer based in Delhi,
+          India. Currently pursuing my B.Ttech. degree majoring in Electronics.
+          I wish to further my career as a web developer building beautiful and
+          intuitive websites.
         </p>
         <p>
-          I have experience with React and Context API as well as proficiency in Javascript, HTML and CSS which I have used to build an array of websites. 
-          I have strong problem solving skills with knowledge of C++ that helps me make use of various data structues and algorithms to solve real life based problems.
+          I have experience with React and Context API as well as proficiency in
+          Javascript, HTML and CSS which I have used to build an array of
+          websites. I have strong problem solving skills with knowledge of C++
+          that helps me make use of various data structues and algorithms to
+          solve real life based problems.
         </p>
         <p>
-          In my free time you would find me in front of a chess board or a ping pong table.
+          In my free time you would find me in front of a chess board or a ping
+          pong table.
         </p>
       </div>
       <div className='sites'>
@@ -44,6 +50,12 @@ const About = () => {
         Authentication using google sign-in as well as create account and email password sign-in are integrated.'
           imgsource={img1}
           siteurl='https://marvelous-cassata-0a0b5e.netlify.app/'
+        />
+        <SiteCard
+          title='Crypto App'
+          content='A React.js Based article page displaying information about Bitcoin Blockchain in a very stylish and beatiful styling format. It includes a currency converter which makes use of blockchain API and works seamlessly.'
+          imgsource={img5}
+          siteurl='https://luminous-peony-464717.netlify.app//'
         />
         <SiteCard
           title='Merkury Landing Page'
